@@ -1,3 +1,6 @@
+import 'package:flutter/cupertino.dart';
+import 'package:laza/constants/const.dart';
+
 class TextFiledInfo {
   List<String> placeholder = ["Username", "Password", "Email Address"];
 }
@@ -41,8 +44,63 @@ class CircleImage {
 
 class ButtonImage {
   List<String> images = [
-    "assets/images/mastercard_logo.svg",
-    "assets/images/paypal_logo.svg",
-    "assets/images/bank_logo.svg",
+    "assets/images/mastercard_logo.png",
+    "assets/images/paypal_logo.png",
+    "assets/images/bank_logo.png",
+  ];
+
+  List<Color> colors = [
+    kButtonCardColor,
+    kAddCardColor,
+    kAddCardColor,
+  ];
+
+  List<Color> bordercolors = [
+    kBorderColor,
+    kTwitterColor,
+    kTextColor,
+  ];
+}
+
+class DrawerImageName {
+  List<String> svgimages = [
+    "assets/icons/info.svg",
+    "assets/icons/Lock.svg",
+    "assets/icons/Bag.svg",
+    "assets/icons/wallet.svg",
+    "assets/icons/Heart.svg",
+    "assets/icons/Setting.svg",
+  ];
+
+  List<String> names = [
+    "Account Information",
+    "Password",
+    "Order",
+    "My Cards",
+    "Wishlist",
+    "Settings",
+  ];
+}
+
+class BrandDressImage {
+  List<String> images = [
+    "assets/images/gree-dress.png",
+    "assets/images/yellow-dress.png",
+    "assets/images/whit-dress.png",
+    "assets/images/blue-dress.png",
+    "assets/images/gree-dress.png",
+    "assets/images/yellow-dress.png",
+    "assets/images/whit-dress.png",
+    "assets/images/blue-dress.png",
+  ];
+  List<String> texts = [
+    "Nike Sportswear Club\nFleece",
+    "Trail Running Jacket Nike\nWindrunner",
+    "Training Top\nNike Sport Clash",
+    "Trail Running Jacket Nike\nWindrunner",
+    "Nike Sportswear Club\nFleece",
+    "Trail Running Jacket Nike\nWindrunner",
+    "Training Top\nNike Sport Clash",
+    "Trail Running Jacket Nike\nWindrunner",
   ];
 }
